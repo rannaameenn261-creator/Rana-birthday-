@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b0b0d">
+  <title>Rana's 24th Birthday</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="loader" id="loader">
+    <div class="loader-inner">
+      <div class="tiny">YOU ARE INVITED</div>
+      <div class="loader-name">RANA</div>
+      <div class="loader-line"></div>
+      <div class="loader-sub">A LITTLE CELEBRATION OF 24</div>
+      <button id="openBtn">OPEN INVITATION</button>
+    </div>
+  </div>
+
+  <main id="site" class="hidden">
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow">A SPECIAL DAY • A SPECIAL GIRL</p>
+        <h1>Rana</h1>
+        <p class="turning">TURNING <span>24</span></p>
+        <div class="gold-rule"></div>
+        <p class="quote">Happy birthday to my favorite person 🎈</p>
+        <a href="#details" class="scroll">SCROLL TO CELEBRATE ↓</a>
+      </div>
+    </section>
+
+    <section class="intro section">
+      <div class="section-inner reveal">
+        <p class="eyebrow">THE CELEBRATION</p>
+        <h2>Twenty-four looks<br><em>beautiful</em> on you.</h2>
+        <p class="body-copy">
+          Another year of memories, laughter, dreams and beautiful little moments.
+          Here's to everything that made you who you are — and everything still waiting for you.
+        </p>
+        <div class="number">24</div>
+      </div>
+    </section>
+
+    <section class="gallery section">
+      <div class="section-inner">
+        <div class="gallery-heading reveal">
+          <p class="eyebrow">MEMORIES</p>
+          <h2>A little glimpse<br><em>of Rana</em></h2>
+        </div>
+        <div class="gallery-grid">
+          <figure class="photo photo-large reveal"><img src="assets/rana-1.jpg" alt="Rana"></figure>
+          <figure class="photo photo-small reveal"><img src="assets/rana-2.jpg" alt="Rana"></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="details section" id="details">
+      <div class="section-inner reveal">
+        <p class="eyebrow">SAVE THE DATE</p>
+        <h2>Let's celebrate<br><em>together.</em></h2>
+        <div class="detail-grid">
+          <div><span>DATE</span><strong>YOUR DATE</strong><small>Replace this text</small></div>
+          <div><span>TIME</span><strong>YOUR TIME</strong><small>Replace this text</small></div>
+          <div><span>VENUE</span><strong>YOUR VENUE</strong><small>Replace this text</small></div>
+        </div>
+        <a class="gold-button" href="#" onclick="return false;">GET DIRECTIONS</a>
+      </div>
+    </section>
+
+    <section class="countdown section">
+      <div class="section-inner reveal">
+        <p class="eyebrow">COUNTING DOWN</p>
+        <h2>Until the candles<br><em>are glowing.</em></h2>
+        <div class="timer" id="timer">
+          <div><strong id="days">00</strong><span>DAYS</span></div>
+          <div><strong id="hours">00</strong><span>HOURS</span></div>
+          <div><strong id="minutes">00</strong><span>MINUTES</span></div>
+          <div><strong id="seconds">00</strong><span>SECONDS</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing section">
+      <div class="section-inner reveal">
+        <div class="cake">✦</div>
+        <p class="eyebrow">ONE MORE THING</p>
+        <h2>Make a wish.<br><em>Make it count.</em></h2>
+        <p class="body-copy">Here's to 24 — and to every beautiful chapter that comes next.</p>
+        <button class="gold-button" id="wishBtn">MAKE A WISH ✨</button>
+        <p class="wish" id="wish"></p>
+      </div>
+    </section>
+
+    <footer>
+      <div>RANA</div>
+      <span>24 • WITH LOVE • 2026</span>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
